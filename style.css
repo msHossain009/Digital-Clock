@@ -1,0 +1,59 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url('https://wallpapercave.com/wp/wp3284839.gif');
+	font-size: 62.5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    overflow: hidden;
+}
+
+.clockBody {
+	background-color: aliceblue;
+	padding: 7rem 9rem;
+	border-radius: 5rem 10rem;
+}
+
+h2 {
+	letter-spacing: 0.4rem;
+	font-size: 2rem;
+	text-align: center;
+    font-weight: 600;
+}
+
+.clock {
+	display: flex;
+}
+
+.clock div {
+	margin: 0.8rem;
+}
+
+.clock span {
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.clock span:nth-child(1) {
+	background-color: cornflowerblue;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	margin: 0.8rem;
+	font-weight: bolder;
+	text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.clock .text{
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	line-height: 0.2rem;
+}
